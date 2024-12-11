@@ -1,0 +1,22 @@
+# Ignore node_modules directory
+node_modules/
+
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore .env files if you store secrets
+.env
+.env.local
+.env.*.local
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore system-specific files (optional)
+.DS_Store
+Thumbs.db
+
